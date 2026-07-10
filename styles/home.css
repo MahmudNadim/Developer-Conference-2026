@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
+    background-color: rgb(250, 241, 241);
     border: 1px solid black;
     margin-top: 20px;
 }
