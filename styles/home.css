@@ -1,0 +1,53 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* herder css start */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+header img{
+    max-width: 100%;
+}
+nav ul{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a:hover{
+    background-color: rgb(226, 247, 247);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #575757;
+}
+
+.common-btn{
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+/* herder css end */
