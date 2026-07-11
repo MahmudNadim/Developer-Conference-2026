@@ -100,11 +100,11 @@ nav ul li a{
 /* hero section css end */
 
 /* speaker section start */
-.speakers-section{
-    background-color: aliceblue;
+.speakers-section, .secure-section{
+    background-color: #fcfcfd;
     padding: 80px 0;
 }
-.speakers-content{
+.speakers-content, .secure-content{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -148,3 +148,78 @@ nav ul li a{
     font-size: 1.01rem;
 }
 /* speaker section end */
+
+/* secure section start */
+.secure-section{}
+.secure-content{}
+.secure-content-heading{
+    text-align: center;
+    color: #0D1B2A;
+    font-size: 2.5rem;
+}
+.secure-content-subtitle{
+    text-align: center;
+    color: #575757;
+    margin: 15px 0;
+}
+.pricing-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.single-pricing-card{
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    padding: 30px;
+    width: 370px;
+    background-color: #E5E7EB;
+}
+.plan-name{
+    color: #335697;
+    font-weight: bold;
+}
+.price{
+    color: #000102;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.capacity{
+    color: #55585e;
+}
+.single-pricing-card hr{
+    margin: 10px 0;
+}
+.single-pricing-card ul{
+    list-style-image: url(../images/dot.png);
+}
+.standard-btn{
+    background-color: white;
+    border: 1px solid blue;
+    color: #1D4ED8;
+    width: 90%;
+}
+.pro-btn{
+    width: 90%;
+}
+.team-btn{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    width: 90%;
+}
+.single-pricing-card ul li{
+    color: #333333;
+    line-height: 2.5;
+}
+.pro{
+    background-color: #0D1B2A;
+}
+.pro-horizontan{
+    border: none; 
+    border-top: 2px solid #55585e !important;
+}
+.pro > .price, .pro > .capacity, .pro > .pro-ul li {
+    color: white;
+}
+/* secure section end */
